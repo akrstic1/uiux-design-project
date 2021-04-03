@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Minimal Chic</title>
+
+    <!-- Bootstrap reboot CSS -->
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+
+    <!-- Bootstrap grid CSS -->
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+
+    <!-- Naš stil -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fontovi-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <!--hamburger overlay-->
+        <div class="overlay">
+          <a class="close">&times;</a>
+          <div class="overlay__content">
+              <a href="#">Njega lica</a>
+              <a href="#">Njega tijela</a>
+              <a href="#">Ostalo</a>
+              <a href="kontakt.html">Kontakt</a>
+          </div>
+        </div>
+
+        <!--LOGO-->
+        <a class="logolink" href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+  
+        <!--LINKOVI-->
+        <ul class="navbar-nav">
+          <!--link-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Njega lica
+            </a>
+          </li>
+  
+          <!--link-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Njega kože
+            </a> 
+          </li>
+  
+          <!--link-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Ostalo
+            </a>
+          </li>
+  
+          <!--link-->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Kontakt
+            </a>
+          </li>
+          
+        </ul>
+  
+        <!--Košarica-->
+        <a href="#" class="kosarica"><img src="img/shopping-bag-solid.svg" alt="kosarica"></a>
+
+        <img class="hamburger" src="img/hamb.svg"></a>
+      </nav>
+      <!--hamburger overlay skripta-->
+      <script type="text/javascript" src="js/overlay.js"></script>
+    </header>
+
+
+
+  <main role="main">
+    <section class="kontakt">
+        <h3>Kontaktirajte nas</h3>
+
+        <form action="#">
+            <label for="ime">Vaše ime</label>
+            <input id="name" type="text" required>
+
+            <label for="email">Vaš e-mail</label>
+            <input id="email" type="text" required>
+
+            <label for="poruka">Poruka</label>
+            <textarea rows="4" cols="30" id="poruka" name="poruka"></textarea>
+
+            <button>Pošalji</button>
+        </form>
+    </section>
+  </main>
+
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 mb-4 mb-lg-0 d-flex flex-column justify-content-center info">
+        <h3>Informacije</h3>
+        <a href="#">Dostava</a>
+        <a href="#">Reklamacije</a>
+        <a href="#">Kolačići</a>
+        <a href="#">O nama</a>
+        <a href="#">Kontakt</a>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 mb-4 mb-lg-0 d-flex flex-column justify-content-center email">
+        <h3>Prijavi se na newsletter</h3>
+        <div style="display: inline;">
+          <input type="email" placeholder="Vaš e-mail">
+          <a href=""><img src="img/ikone/strela.svg" alt="go" style="max-width: 35px;"></a>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-sm-12 mb-4 mb-lg-0 social">
+        <h3>Zaprati nas na socijalnim mrežama</h3>
+        <a href=""><img src="img/ikone/face.svg" alt="facebook">Facebook<br></a>
+        <a href=""><img src="img/ikone/inst.svg" alt="Instagram">Instagram</a>
+      </div>
+    </div>
+  </footer>
+  
+  </body>
+</html>
